@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Homework 6</title>
+  </head>
+  <body>
+    <main class="page-wrapper">
+      <div class="container">
+        <div class="text">
+          <h2>Get in <span>Touch</span></h2>
+          <p>
+            Enim tempor eget pharetra facilisis sed maecenas adipiscing. Eu leo
+            molestie vel, ornare non id blandit netus.
+          </p>
+        </div>
+        <!-- Fill out the form -->
+        <form action="example.html" method="get">
+          <div class="form-group">
+            <label for="name"> </label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Name *"
+              required />
+          </div>
+          <div class="form-group">
+            <label for="email"></label>
+            <input type="email" name="email" id="email" placeholder="Email" />
+          </div>
+          <div class="form-group">
+            <label for="phone"></label>
+            <input
+              type="tel"
+              name="phone"
+              id="phone"
+              placeholder="Phone number *"
+              required />
+          </div>
+          <div class="form-group">
+            <label for="Subject"></label>
+            <select name="subject" id="subject" required>
+              <option value="subject">How did you find us?</option>
+              <option value="Afriendrecommendedme">
+                A friend recommended me
+              </option>
+              <option value="viasocialmedia">Via social media</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <button>Send</button>
+        </form>
+        <!-- Contact Information -->
+        <div class="contact">
+          <div class="contact-form">
+            <img src="images/phone.svg" alt="phone" />
+            <div class="contact-text">
+              <p>PHONE</p>
+              <span>03 5432 1234</span>
+            </div>
+          </div>
+          <div class="contact-form">
+            <img src="images/fax.svg" alt="fax" />
+            <div class="contact-text">
+              <p>FAX</p>
+              <span>03 5432 1234</span>
+            </div>
+          </div>
+          <div class="contact-form">
+            <img src="images/email.svg" alt="email" />
+            <div class="contact-text">
+              <p>EMAIL</p>
+              <span> info@marcc.com.au</span>
+            </div>
+          </div>
+        </div>
+        <div class="map-container">
+          <iframe
+            src="https://maps.google.com/maps?width=545px&amp;height=700px&amp;hl=en&amp;q=1%20Grafton%20Street,%20Dublin,%20Ireland&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+      <div class="green"></div>
+    </main>
+  </body>
+</html>
