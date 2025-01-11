@@ -26,6 +26,7 @@ span {
   max-width: 1440px;
   border-radius: 50px;
   overflow: hidden;
+  box-shadow: 0px 141px 200px -80px #193a4b4d;
 }
 
 .container {
